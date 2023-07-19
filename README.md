@@ -26,4 +26,4 @@ The end result:
 <img src="https://github.com/Xses-1/Selmer-TV10/blob/main/Pictures/IMG_20230718_204245.jpg">
 
 
-It sounds fucking amazing, especially with a booster at the front. The only thing that's missing is an FX loop, but I just ran it with dummy load and then through active DBox that c
+It sounds fucking amazing, especially with a booster at the front. The only thing that's missing is an FX loop, but I just run it with a dummy load and then through active DBox that can take speaker level signal, then through effects, and to a solid state power stage at the end. This work fine, just fine.
