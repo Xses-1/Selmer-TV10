@@ -21,6 +21,12 @@ I also made a few modifications to improve safety, sound (especially when overdr
 
 
 
+Schematics:
+
+<img src="https://github.com/Xses-1/Selmer-TV10/blob/main/Scan.jpg">
+
+
+
 The end result:
 
 <img src="https://github.com/Xses-1/Selmer-TV10/blob/main/Pictures/IMG_20230718_204245.jpg">
