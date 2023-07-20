@@ -1,0 +1,61 @@
+
+var uid = 'ws1426097';
+var db = '1';
+var delta_time = '3600';
+var new_session = 'no';
+var user_status = 'regular';
+var uniqueID = 'XZoLUxf92q0AACFKw14AAAAE';
+var sessionID = '';
+
+if ('regular' == 'premium' && 'yes' != 'yes'){
+   document.getElementById("wtstimer1426097").innerHTML = db+'::'+uid+'::'+delta_time+'::'+new_session+'::'+uniqueID+'::'+sessionID;
+}
+else {
+   document.getElementById("wtstimer1426097").innerHTML = 'no_streaming';
+}
+
+if ('no' != 'yes'){
+
+   if ('en' == 'fr'){
+      var host = 'https://www.web-stat.fr';
+   }
+   else{
+      var host = 'https://www.web-stat.com';
+   }
+
+   var idTag =  'PublicID=ws1426097';
+   var custom = '';
+   if (custom.indexOf("wix") > -1){
+      if ('http://www.vintagehofner.co.uk/selmer/early/sel7.html' != 'unknown'){
+         idTag = idTag+'&source=wixPage_http://www.vintagehofner.co.uk/selmer/early/sel7.html';
+      }
+      else{
+         idTag = idTag+'&source=wixPage';
+      }
+   }
+   else{
+      idTag = idTag+'&source='+window.location.hostname;
+   }
+
+   var click_target;
+
+   if ('stats_menu' == 'visitor_details'){
+      click_target = '/stats/live_visitors.htm?'+idTag+'&ck='+Math.random();
+   }
+   else if ('stats_menu' == 'all_in_one' || 'stats_menu' == 'all-in-one'){
+      click_target = '/stats/all-in-one.htm?'+idTag+'&ck='+Math.random();
+   }
+   else{
+      click_target = '/stats/checkstats.htm?'+idTag+'&ck='+Math.random();
+   }
+
+   if ('stats_menu' == 'no_click'){
+      document.getElementById("wts1426097").innerHTML = '<div style="display:inline-block; box-sizing:content-box; font-weight:normal; width:104px; height:66px; border:3px solid rgba(255,255,255,1); border-radius:0px; background-color:rgba(10,148,238,0.50) ! important; color:rgba(255,255,255,1); font-family: Futura,Trebuchet MS,Arial,sans-serif; box-sizing: content-box ! important; line-height: 10px ! important;"><div style="margin-top:6px; text-align:center; font-size:13px; line-height: 10px ! important;"><img src="//wts.one/WS_symbol_30x15_ffffff.png" width="30" height="15" style="display:inline; vertical-align:bottom; margin-bottom:0px ! important;">WEB-STAT<div style="font-size:9.5px; margin-top:13px ! important;">TRAFFIC ANALYSIS</div><div style="font-size:11px; margin-top:2px ! important; font-style:italic">live data</div></div></div><span style="display:none" id="type_1426097">CountSticker</span>';
+   }
+   else{
+      document.getElementById("wts1426097").innerHTML = '<a style="color: rgba(255,255,255,1) ! important; text-decoration:none;" href="'+host+click_target+'" target="_new2"><div style="display:inline-block; box-sizing:content-box; font-weight:normal; width:104px; height:66px; border:3px solid rgba(255,255,255,1); border-radius:0px; background-color:rgba(10,148,238,0.50) ! important; color:rgba(255,255,255,1); font-family: Futura,Trebuchet MS,Arial,sans-serif; box-sizing: content-box ! important; line-height: 10px ! important;"><div style="margin-top:6px; text-align:center; font-size:13px; line-height: 10px ! important;"><img src="//wts.one/WS_symbol_30x15_ffffff.png" width="30" height="15" style="display:inline; vertical-align:bottom; margin-bottom:0px ! important;">WEB-STAT<div style="font-size:9.5px; margin-top:13px ! important;">TRAFFIC ANALYSIS</div><div style="font-size:11px; margin-top:2px ! important; font-style:italic">live data</div></div></div><span style="display:none" id="type_1426097">CountSticker</span></a>';
+   }
+
+
+}
+
